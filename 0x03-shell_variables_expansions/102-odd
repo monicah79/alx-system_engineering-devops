@@ -1,2 +1,2 @@
 #!/bin/bash
-awk 'NR%2==1' input_file.txt
+sed -n '1~2p' input_file.txt
